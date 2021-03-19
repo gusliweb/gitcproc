@@ -2,4 +2,4 @@ version: '2'
 services:
     gitproc:
         build: .
-        image: guslwieb-gitcproc-docker
+        image: gusliweb-gitcproc-docker
