@@ -25,7 +25,7 @@ RUN apt-get install -q -y \
     postgresql-contrib
 
 
-RUN git clone https://github.com/caseycas/gitcproc /home/gitcproc
+RUN git clone https://github.com/gusliweb/gitcproc /home/gitcproc
 WORKDIR /home/gitcproc
 
 #Set up a database in postgresql? Or do this in the docker.
