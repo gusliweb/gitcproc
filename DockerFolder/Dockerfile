@@ -47,7 +47,7 @@ RUN echo "Reset."
 
 #Get the project
 RUN git clone https://github.com/gusliweb/gitcproc 
-WORKDIR  /home/gitcproc
+WORKDIR  /Users/liwei/Workspace/gusliweb-gitcproc
 RUN git pull
 
 #Set up a database in postgresql? Or do this in the docker.
